@@ -1,2 +1,2 @@
 # OpenCode
-Here are tasks for OpenCode CyberSecurity
+Here are tasks for OpenCode CyberSecurity Inductions
