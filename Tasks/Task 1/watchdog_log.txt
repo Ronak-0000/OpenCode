@@ -1,0 +1,19 @@
+
+[*] Network Watchdog Initiated... 
+2026-01-29 22:27:43.824180
+OS - posix
+Resolved IP Address: 172.16.0.62
+'Google.com will be pinged 5 times'
+PING google.com (172.217.24.142) 56(84) bytes of data.
+64 bytes from lcmaaa-av-in-f14.1e100.net (172.217.24.142): icmp_seq=1 ttl=255 time=142 ms
+64 bytes from lcmaaa-av-in-f14.1e100.net (172.217.24.142): icmp_seq=2 ttl=255 time=124 ms
+64 bytes from lcmaaa-av-in-f14.1e100.net (172.217.24.142): icmp_seq=3 ttl=255 time=191 ms
+64 bytes from lcmaaa-av-in-f14.1e100.net (172.217.24.142): icmp_seq=4 ttl=255 time=70.3 ms
+64 bytes from lcmaaa-av-in-f14.1e100.net (172.217.24.142): icmp_seq=5 ttl=255 time=128 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4299ms
+rtt min/avg/max/mdev = 70.268/130.998/190.885/38.633 ms
+
+'END OF LOG'
+
