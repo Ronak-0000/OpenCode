@@ -1,3 +1,0 @@
-1.Ping command operate on network layer
-2.DNS command operate on application layer
-3.ICMP Protocol is shown for the ping request
