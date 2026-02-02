@@ -1,8 +1,0 @@
-1.The server sends a SYN-ACK (Synchronize-Acknowledgment) packet in response to SYN packets.
-2.The attacker send large number of SYN packets, with spoofed source IP addresses(mostly). 
-The server responds to each SYN with a SYN-ACK and allocates memory for that connection, waiting for the final ACK.
-Because the attacker never complete the handshake, the ACK is never sent.
-These incomplete connections remain in a half-open state, consuming server resources (memory, CPU). 
-As attack continues, the server’s resources fills up.
-Once the resources are full, the server cannot accept any new connections.
-3.Rate limiting is one of the defense technique used against SYN Floods, it restricts the no. of incoming SYN packets coming from a single IP address.
